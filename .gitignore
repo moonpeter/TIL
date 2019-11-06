@@ -1,3 +1,12 @@
+# Custom
+.DS_ Store
+*.pem
+*.db
+
+hidden/
+*.java
+credential.*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
