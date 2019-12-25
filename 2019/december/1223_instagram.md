@@ -31,3 +31,5 @@
    - $ django-admin startapp members
 2. posts앱 추가
    - $ django-admin startapp posts
+   
+   oo
