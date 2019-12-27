@@ -8,6 +8,7 @@
 2. env : was-instagram-env (Interpreter 설정해주기)
 3. $ pip install 'django<3.0'
 4. $ git init & git ignore
+   - .gitignore      #gitignore.io. (Git, Linux, macOS, Python, Django, Windows, PyCharm+all, jupyternotebook)
 5. $ pip install django-extensions notebook (필수사항 아님, settings의 INSTALLED_APPS에 추가해줘야 작동함)
 6. pip freeze > requirements.txt (필요한 프로그램들을 list-up하여 파일로 만들어줌)
 
@@ -31,3 +32,29 @@
    - $ django-admin startapp members
 2. posts앱 추가
    - $ django-admin startapp posts
+
+
+
+
+
+## 24일 수업한 내용
+
+
+
+HTTP Scheme + HOST + MEDIA_URL + FileField의 실제 값
+
+http//: + localhost:8000 + /meida/ + popsts/images/파일명.jpg
+
+![image-20191224143043684](/Users/moonpeter/Library/Application Support/typora-user-images/image-20191224143043684.png)
+
+![image-20191224143124546](/Users/moonpeter/Library/Application Support/typora-user-images/image-20191224143124546.png)
+
+=> prefix=settings.MEDIA_URL, 로 변경
+
+
+
+
+
+쿠키기반 사용자 세션
+
+![image-20191224185700341](/Users/moonpeter/Library/Application Support/typora-user-images/image-20191224185700341.png)

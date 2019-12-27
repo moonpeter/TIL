@@ -13,8 +13,7 @@
   - pyenv local <환경명>
 
 - - gitinit
-  - .gitignore      #gitignore.io. (Git, Linux, macOS, Python, Django, Windows, PyCharm+all)
-- pip install 'django<3.0'
+  - .gitignore      #gitignore.io. (Git, Linux, macOS, Python, Django, Windows, PyCharm+all)- pip install 'django<3.0'
 
 
 
