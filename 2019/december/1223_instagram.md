@@ -32,6 +32,7 @@
    - $ django-admin startapp members
 2. posts앱 추가
    - $ django-admin startapp posts
+<<<<<<< HEAD
 
 
 
@@ -58,3 +59,7 @@ http//: + localhost:8000 + /meida/ + popsts/images/파일명.jpg
 쿠키기반 사용자 세션
 
 ![image-20191224185700341](/Users/moonpeter/Library/Application Support/typora-user-images/image-20191224185700341.png)
+=======
+   
+   oo
+>>>>>>> 62aa7d37cefebe001f8f69f1f4433ee1398bb42b
